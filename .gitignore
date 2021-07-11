@@ -1,0 +1,5 @@
+build
+*.jpg
+lib/extra/detector/lib/libdetector.so
+lib/extra/detector/lib/yolov5s_fp16_b1.engine
+lib/extra/tracker/lib/libtracker.so
