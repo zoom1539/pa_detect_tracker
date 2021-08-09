@@ -39,6 +39,6 @@ bool _DetectTracker::run(const cv::Mat &img_,
 		}
 	}
 
-	return _tracker.run(rects, rects_tracked_);
+	return _tracker.run(rects, img_.size(), rects_tracked_);
 
 }
